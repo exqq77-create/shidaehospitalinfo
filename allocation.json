@@ -1,0 +1,16 @@
+{
+ "daily_total": 30,
+ "A": {
+  "anyang-disc": 4,
+  "anyang-stenosis": 4,
+  "anyang-knee": 4,
+  "anyang-foot": 3
+ },
+ "B": {
+  "anyang-manual-therapy": 3,
+  "anyang-ankle": 3,
+  "anyang-wrist-elbow": 3,
+  "anyang-nail": 3,
+  "anyang-diagnosis": 3
+ }
+}
