@@ -46,7 +46,8 @@ git -C <repo> worktree add ../<repo>-sources origin/sources
 - 제목과 본문 일치, 오탈자, 문장 연결, 설명 간 모순, 메모 잔여물 확인. `check_post.py`의 WARN 항목은 모두 읽고 판단한다.
 
 ## 5. 이미지·링크
-- 일반 추가 원고는 본문 이미지 없음(head의 og:image 기본 메타만 유지). 대표 캐러셀 6개 글의 이미지 구성은 손대지 않는다.
+- 기존 홈의 대표 콘텐츠와 연결 글·이미지는 유지한다(목록: PROTECTED.md). 이번 제작·검수 기준은 예약 대기 원고, 미발행 재고, 앞으로 생성할 원고에 적용한다. 일반 신규 원고에는 별도 지시가 없으면 본문 이미지를 추가하지 않는다(head의 og:image 기본 메타만 유지).
+- `treatments/*` 페이지는 건강정보 글 목록 블록이 있을 때 그 블록만 갱신하고, 이미지·설명 본문은 손대지 않는다. 홈 `index.html`은 수정하지 않는다.
 - 각 글 하단 카테고리 줄 뒤, 이전/다음 글 앞에 자사 홈페이지 키워드 링크 문단 1회(마크업은 기존 글과 동일):
   - shidaehospitalinfo → 안양정형외과 → https://shidaehospitalinfo.co.kr/
   - myseasonclinic-ulsaninfo → 울산피부과 → https://myseasonclinic-ulsaninfo.co.kr/
