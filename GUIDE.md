@@ -4,8 +4,9 @@
 main을 복제한 뒤 이 브랜치를 worktree로 꺼내 `sources/`, `catalog.json`, `tools/`를 사용합니다.
 
 ```
-git -C <repo> fetch origin sources
+git -C <repo> fetch --depth 1 origin sources:refs/remotes/origin/sources
 git -C <repo> worktree add ../<repo>-sources origin/sources
+# 사용 이력 반영 후: git -C ../<repo>-sources add -A && git -C ../<repo>-sources commit -m "usage: <슬러그>" && git -C ../<repo>-sources push origin HEAD:sources
 ```
 
 ## 폴더 구성
