@@ -384,7 +384,13 @@
    "body_chars": 1776,
    "sha256_16": "f461e6d804a84d09",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-nail-12",
+     "date": "2026-10-16",
+     "note": "내향성 발톱·걸음 변화·신발/발톱 깎는 습관·무지외반증 사실만 사용, 관절 통증 연결 각도"
+    }
+   ]
   },
   {
    "id": "033",
@@ -2136,7 +2142,13 @@
    "body_chars": 1775,
    "sha256_16": "0b4bb6b372aae77e",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-diagnosis-12",
+     "date": "2026-10-16",
+     "note": "교통사고 후 후유증·MRI 확인 범위 사실만 사용, 원장 칼럼 서명 제거, 통증 기록·검사 준비 각도"
+    }
+   ]
   },
   {
    "id": "179",
