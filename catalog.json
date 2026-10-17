@@ -24,7 +24,13 @@
    "body_chars": 2269,
    "sha256_16": "cd679fadb6a711ac",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-manual-therapy-20",
+     "date": "2026-10-17",
+     "note": "체형 교정 기대 범위 각도: 거북목·일자목·척추측만 구분, 근육 긴장 vs 뼈 배열, 기대 한계. 원문 사실(자세 불균형·거북목·측만·상담 필요)만 사용"
+    }
+   ]
   },
   {
    "id": "003",
