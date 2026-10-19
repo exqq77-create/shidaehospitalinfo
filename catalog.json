@@ -450,7 +450,13 @@
    "body_chars": 2139,
    "sha256_16": "c79efaa6d0a2eee4",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-manual-therapy-33",
+     "date": "2026-10-19",
+     "note": "저림 위치·자세 기록과 신경 문제 구분 각도"
+    }
+   ]
   },
   {
    "id": "034",
@@ -2884,7 +2890,13 @@
    "body_chars": 1301,
    "sha256_16": "5945e85e31328268",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-nail-33",
+     "date": "2026-10-19",
+     "note": "간 기능·복용약이 걱정될 때 알릴 정보와 선택지 각도(장비·홍보 내용 제외)"
+    }
+   ]
   },
   {
    "id": "211",
