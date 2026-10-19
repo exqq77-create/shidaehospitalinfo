@@ -33,6 +33,9 @@ DOMAINS = {
     "daegu365mc-info": ("https://daegu365mc-info.co.kr/", ["대구다이어트병원"]),
     "sarangi-info": ("https://sarangi-info.co.kr/", ["난임병원"]),
     "mediwoman-info": ("https://mediwoman-info.co.kr/", ["부산유방외과", "부산임신중절"]),
+    "smartdc-info": ("https://smartdc-info.co.kr/", ["구미치과", "구미임플란트"]),
+    "keundental-info": ("https://keundental-info.co.kr/", ["양천구치과", "강서구치과"]),
+    "mppm-info": ("https://mppm-info.co.kr/", ["대구월성동피부과", "대구온다리프팅", "대구세르프"]),
 }
 BANNED = ["100%", "완치", "보장", "최고의", "유일한", "부작용 없", "부작용이 없", "확실히 효과", "무조건",
           "1위", "최저가", "가장 저렴", "절대", "영구적", "완벽", "검증된 효과", "입소문", "후기에서"]

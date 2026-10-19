@@ -54,6 +54,9 @@ git -C <repo> worktree add ../<repo>-sources origin/sources
   - daegu365mc-info → 대구다이어트병원 → https://daegu365mc-info.co.kr/
   - sarangi-info → 난임병원 → https://sarangi-info.co.kr/
   - mediwoman-info → 부산유방외과 · 부산임신중절 → https://mediwoman-info.co.kr/
+  - smartdc-info → 구미치과 · 구미임플란트 → https://smartdc-info.co.kr/
+  - keundental-info → 양천구치과 · 강서구치과 → https://keundental-info.co.kr/
+  - mppm-info → 대구월성동피부과 · 대구온다리프팅 · 대구세르프 → https://mppm-info.co.kr/
   다른 업체 링크 삽입 금지. `check_post.py`가 확인한다.
 
 ## 6. 발행 판정
@@ -65,3 +68,9 @@ git -C <repo> worktree add ../<repo>-sources origin/sources
 - 사랑아이·대구365mc·나의계절·시대병원: 최신 글(journal의 가장 큰 번호)의 마크업을 그대로 복제한다. 본문 `<article>` 안에는 `<nav class="toc">` + `<h2 id="s1">`~`<h2 id="s5">` 5개 섹션이 있다. 헤더의 로고 `<img>`는 본문 이미지가 아니므로 그대로 둔다.
 - 메디우먼(mediwoman-info): 기존 24편은 사진이 들어간 짧은 옛 템플릿(3개 소제목, 600~900자)이다. **새 글은 옛 템플릿을 복제하지 않는다.** 메디우먼 글의 head·헤더·빵부스러기·meta·footer·backlink·related·prevnext는 메디우먼 파일에서 가져오되, `<article class="section article">` 안의 본문은 다른 4개 사이트와 같은 구조(요약문 → `<nav class="toc">` → `<h2 id="s1">`~`<h2 id="s5">` 각 2~4문단 → ctas → 카테고리 → backlink → related → prevnext)로 만들고 본문 사진(`/images/*.webp` hero 이미지)은 넣지 않는다. 메디우먼 site.css에 `.toc` 스타일이 이미 있어 그대로 표시된다. 기존 24편은 수정하지 않는다.
 - `tools/check_post.py`는 위 구조(s1~s5, toc)를 전제로 검사한다.
+
+## 8. 2026-10-19 추가 사이트(스마트치과·서울큰치과·미쁨의원) 템플릿 주의
+- 이 3개 사이트는 build.py 생성기로 만든 사이트라 글 템플릿이 사랑아이 최신 글과 동일 구조(요약문 → toc → s1~s5 → 상담 전 확인할 내용 → 위험 → hub-link → 카테고리 → backlink → prevnext → related → ctas)다. 최신 글을 복제한다.
+- 서울큰치과는 2025-11 보건소 미심의 광고 민원 이력이 있다. "1위·점유율·보증 강조·브랜드 비교" 금지, 보증은 "조건을 서면으로 확인" 수준.
+- 미쁨의원은 공식 소개에 전문의 표기가 없다. "피부과 전문의"라고 쓰지 않는다. 가격·이벤트 언급 금지.
+- 스마트치과 의료진 약력 없음. 원장 이름·약력을 본문에 쓰지 않는다.
