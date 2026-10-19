@@ -828,7 +828,13 @@
    "body_chars": 2159,
    "sha256_16": "73064cc3121ff1fd",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-manual-therapy-32",
+     "date": "2026-10-19",
+     "note": "통증 방치 시 보상 부담 사실만 사용, 직장인 진료 시간대·일정 관리 각도"
+    }
+   ]
   },
   {
    "id": "065",
