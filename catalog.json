@@ -2281,7 +2281,13 @@
    "body_chars": 2019,
    "sha256_16": "2377b5367834869d",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-ankle-40",
+     "date": "2026-10-20",
+     "note": "만성 발목 불안정성에서 재활 vs 수술 논의 기준 각도"
+    }
+   ]
   },
   {
    "id": "160",
