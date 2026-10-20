@@ -126,3 +126,5 @@
 {"date": "2026-10-20", "source_id": "147", "source_file": "147_anyang-wrist-elbow_손목외측통증.txt", "original": "시대/손목외측통증_시대.txt", "slug": "anyang-wrist-elbow-40", "note": "새 각도로 작성(독자 질문·확인 기준 변경), 원문 사실은 주제 범위만 참고"}
 {"date": "2026-10-20", "source_id": "195", "source_file": "195_anyang-ankle_안양동정형외과.txt", "original": "시대/안양동정형외과 -시대 @어요,스블형식 #2000자.txt", "slug": "anyang-ankle-41", "note": "원문 195: 반복 접질림의 원인(인대 약화·불안정), 상황별 확인, X-ray/초음파/MRI, 불안정증·관절염 위험, 균형·근력 운동 사실 활용. 각도: 접질린 상황 메모를 만들어 진료 보기(기존 02·31과 구별)"}
 {"date": "2026-10-20", "source_id": "151", "source_file": "151_anyang-diagnosis_시대병원.txt", "original": "시대/시대병원_골다공증_건강강좌_원고.txt", "slug": "anyang-diagnosis-41", "note": "골다공증 건강강좌 원문의 증상 없는 골다공증·골밀도 검사·낙상 예방 사실만 사용, 각도: 부모님께 검사를 권하는 가족의 진료 준비"}
+{"date":"2026-10-21","source":"none","slug":"anyang-foot-41","note":"원문 없음 · 후보 원문(평촌 어깨 회전근개·관양동 퇴행성관절염)이 발 주제와 불일치해 미사용 · 진료 때 신발을 가져가는 준비 각도, 일반 정보 범위"}
+{"date": "2026-10-21", "source_id": "135", "source_file": "135_anyang-disc_범계정형외과.txt", "original": "시대/범계정형외과 -시대 @어요 #2200자.txt", "slug": "anyang-disc-41", "note": "유산소 운동(걷기·수영·자전거) 선택 기준 각도. 원문의 오래 앉는 생활·유산소 운동·신발 사이즈 언급만 참고, 교정·도수 설명과 진료 권유 문장은 쓰지 않음"}
