@@ -965,7 +965,13 @@
    "body_chars": 2091,
    "sha256_16": "dc814e8f045c8234",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-manual-therapy-45",
+     "date": "2026-10-21",
+     "note": "PC 업무 자세·거북목·저림 신호 사실 사용, 각도: 책상·모니터 높이 점검 순서"
+    }
+   ]
   },
   {
    "id": "070",
