@@ -685,7 +685,13 @@
    "body_chars": 2016,
    "sha256_16": "cedac4a69cb6c184",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-manual-therapy-64",
+     "date": "2026-10-24",
+     "note": "허리통증 원인 서술 중 누워만 지낼 때의 문제·걷기(30분 권장은 참고 수준으로만) 각도로 재구성; 찜질·스트레칭 상세·병원 홍보 문구 제외"
+    }
+   ]
   },
   {
    "id": "046",
