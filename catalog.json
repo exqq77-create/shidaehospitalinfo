@@ -4573,7 +4573,13 @@
    "body_chars": 1882,
    "sha256_16": "9dfac923642d61c0",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "anyang-manual-therapy-70",
+     "date": "2026-10-25",
+     "note": "관절염 시 염증 상태·치료 목적 구분 각도(원문의 관절염·가동범위 사실 참고); 교정/교통사고 문구 제외"
+    }
+   ]
   },
   {
    "id": "279",
