@@ -181,7 +181,7 @@ def main():
     old_ko = re.search(r'<time datetime="[^"]+">([^<]+)</time>', T).group(1)
 
     t = T
-    t = t.replace(old_title, title).replace(old_sum, summary)
+    t = t.replace(old_title, title).replace(html.escape(old_title), title).replace(old_sum, summary)
     t = t.replace(f'/journal/{tmpl_slug}/', f'/journal/{slug}/')
     t = re.sub(r'<title>.*?</title>', lambda m: f'<title>{title}</title>', t, count=1, flags=re.S)
     t = re.sub(r'(<meta property="og:title" content=")[^"]*(")', lambda m: m.group(1) + title + m.group(2), t, count=1)
